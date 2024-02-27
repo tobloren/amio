@@ -1,0 +1,203 @@
+/* Allgemeine Schrifteigenschaften */
+p, ul, ol {
+  font-family: "Montserrat";
+  color: black;
+}
+
+h1, h2, h3 {
+  font-family: "Shadows Into Light Two";
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#title .container-fluid {
+  padding: 1% 15% 1%;
+  text-align: center;
+  background-color: #D7C0AE;
+  color: #D7C0AE;
+}
+
+/* Gemeinsame Stile für Sektionen */
+#features .container-fluid,
+#blog .container-fluid,
+#carouselSection .container-fluid {
+  padding: 3% 15% 3%;
+  text-align: left;
+  background-color: #F1EFE7;
+  color: #D7C0AE;
+}
+
+/* Button-Stil */
+.btn {
+  margin: 1% 0% 0%;
+  background-color: #D7C0AE;
+  border-color: #D7C0AE;
+}
+
+.blog-title-image {
+  width: 100%;
+  margin: 0 0 2% 0;
+  border-radius: 8px;
+}
+
+.blog-box {
+  padding: 1%;
+}
+
+.camp-image {
+  width: 89%;
+  margin: 0 0 2% 0;
+  border-radius: 8px;
+}
+
+.brew-image {
+  width: 86%;
+  margin: 0 0 2% 0;
+  border-radius: 8px;
+}
+
+.explore-image {
+  width: 100%;
+  margin: 0 0 2% 0;
+  border-radius: 8px;
+}
+
+/* Navigatin Bar */
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #F9F7F7;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Shadows Into Light Two";
+  color: black;
+}
+
+.icon {
+  color: #D7C0AE;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #B7C4CF;
+}
+
+/* Stil für die Carousel-Steuerungsknöpfe */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%; /* Ändere die Breite nach Bedarf */
+  opacity: 1; /* Stelle sicher, dass die Knöpfe immer sichtbar sind */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: #fff; /* Farbe des Icons */
+  border-radius: 50%; /* Runde die Ecken */
+}
+
+.carousel-control-prev {
+  left: 0; /* Positioniere den linken Knopf am linken Rand */
+}
+
+.carousel-control-next {
+  right: 0; /* Positioniere den rechten Knopf am rechten Rand */
+}
+
+/* Zentriere den Text innerhalb der Knöpfe (optional) */
+.carousel-control-prev .carousel-control-prev-icon::before,
+.carousel-control-next .carousel-control-next-icon::before {
+  margin: auto;
+}
+
+/* Animation beim Hover (optional) */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: #B7C4CF; /* Ändere die Farbe beim Hover nach Bedarf */
+}
+
+
+/* Bildstile */
+.queensland-image,
+.usa-image,
+.california-image,
+.JoshuaTree-img,
+.AlabamaHills-img,
+.DeathValley-img,
+.Malibu-img {
+  width: 100%;
+  margin: 0;
+  border-radius: 8px;
+}
+
+.Logo-intro {
+  text-align: center;
+  background-color: #F1EFE7;
+  padding: 3% 0% 3%;
+}
+
+.Intrologo {
+  width: auto;
+  height: auto;
+}
+
+.Text-intro {
+  text-align: center;
+  background-color: #EFEFEF;
+  padding: 3% 15% 3%;
+  margin: 0;
+}
+
+/* Google Maps Stil für alle iframes */
+.map {
+   padding-bottom: 75%; /* Das Seitenverhältnis der Karte anpassen (Höhe zu Breite) */
+   position: relative;
+   height: 0;
+   overflow: hidden;
+}
+
+.iframe {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+
+
+/* Footer */
+#footer .container-fluid {
+  padding: 1% 15% 1%;
+  text-align: center;
+  background-color: #967E76;
+  color: black;
+}
+
+.social-media {
+  padding: 0 0 0 2%;
+  color: black;
+  text-decoration: none;
+}
+
+
+/* Colors:
+#B7C4CF  Hover
+#F1EFE7  Background 1
+#EFEFEF  Background 2
+#D7C0AE  Button + Header
+#967E76  Footer
