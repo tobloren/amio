@@ -1,2 +1,0 @@
-# amio
-camping adventures
